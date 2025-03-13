@@ -2,14 +2,14 @@
 
 enable()
 {
-	echo "keycode 59 = colon U037E" > ~/.tmp_Xmodmap
+	echo "keycode 59 = comma U037E" > ~/.tmp_Xmodmap
 	xmodmap ~/.tmp_Xmodmap
 	rm -f ~/.tmp_Xmodmap
 }
 
 disable()
 {
-	echo "keycode 59 = colon semicolon" > ~/.tmp_Xmodmap
+	echo "keycode 59 = comma semicolon" > ~/.tmp_Xmodmap
 	xmodmap ~/.tmp_Xmodmap
 	rm -f ~/.tmp_Xmodmap
 }
